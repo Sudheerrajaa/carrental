@@ -96,8 +96,7 @@ break;
  c.rent=c.n*carrentperday[j];
  printf("WARNING: If any damage is done to the car then you are entirely responsible. The car has to be returned in its initial condition.\n");
  printf("Details:\n");
- printf("NAME:\t%s\nID:\t%s\nCAR RENTED:\t%s\nNUMBER OF
-DAYS:\t%d\nRENT:\t%d\n",c.customername,c.customerId,c.carrented,c.n,c.rent);
+ printf("NAME:\t%s\nID:\t%s\nCAR RENTED:\t%s\nNUMBER OF DAYS:\t%d\nRENT:\t%d\n",c.customername,c.customerId,c.carrented,c.n,c.rent);
  //fclose(ptr);
  strcpy(cr[z].customername,c.customername);
  strcpy(cr[z].customerId,c.customerId);
@@ -196,8 +195,7 @@ int main()
  {
  for(h=1;h<=10;h++)
  {
- printf("\nIS THERE A NEW CUSTOMER NOW??\nENTER 1 FOR YES
-AND 0 FOR NO\n");
+ printf("\nIS THERE A NEW CUSTOMER NOW??\nENTER 1 FOR YES AND 0 FOR NO\n");
  scanf("%d",&p);
  if(p==1)
  {
